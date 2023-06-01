@@ -1,0 +1,68 @@
+.hd {
+    text-align: center;
+}
+
+.searchBox {
+    width: 80%;
+    position: relative;
+    display: flex;
+    border: 50px;
+    margin: 0 0;
+    padding: 0 25%;
+    text-align: center;
+}
+
+.search {
+    width: 60%;
+    height: 20px;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.searchButton {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.movie-cards-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.movie-card {
+    background-color: bisque;
+    font-size: 15px;
+    padding: 50px 0 0 0 0;
+    margin: 50px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px 10px;
+}
+
+.comment {
+    font-size: 12px;
+}
+
+img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px 10px;
+}
+
+ 
